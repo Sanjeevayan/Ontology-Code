@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Apple_iMac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Apple_iMac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computer_Accessories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computer_Accessories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#IT_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#IT_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Dell_Inspiron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Dell_Inspiron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Laptop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Desktop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Desktop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#E-mail_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#E-mail_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#IT_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#IT_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#IT_Services"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Laptop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Laptop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Loaner_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Loaner_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computer_Accessories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#MacBook_Pro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#MacBook_Pro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Laptop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Mail_box_Quota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Mail_box_Quota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#E-mail_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#New_E-mail_Account -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#New_E-mail_Account">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#E-mail_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#OptiPlex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#OptiPlex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Desktop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Peripherals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Peripherals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Computer_Accessories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#ThinkPad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#ThinkPad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kumarsanjeev/ontologies/2019/0/untitled-ontology-33#Laptop"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
